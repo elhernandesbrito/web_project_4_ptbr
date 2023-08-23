@@ -100,12 +100,12 @@
 }
 
 .popup {
-   
     width: 470px;
     height: 370px;
     position: relative;
-   
 }
+
+
 
 .CloseIcon {
     width: 40px;
@@ -182,6 +182,13 @@ input {
     text-align: center;
     color: #FFFFFF;
     background-color: #000000;
+}
+
+
+.popup_change_display {
+    width: 470px;
+    height: 370px;
+    position: relative;
 }
 
 

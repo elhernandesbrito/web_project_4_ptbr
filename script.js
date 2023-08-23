@@ -1,6 +1,15 @@
 // Vamos encontrar o formulário no DOM
-
 // let formElement = // Use o método querySelector()
+
+const openFormButton = document.querySelector('.profile__edit');
+const popup = document.querySelector('.popup');
+
+openFormButton.addEventListener('click', toggleFormDisplay)
+function toggleFormDisplay() {
+   popup.classList.toggle('popup_change_display');
+}
+
+
 
 // Em seguida vem o handler do submit
 // ainda não vai enviar para lugar nenhum
