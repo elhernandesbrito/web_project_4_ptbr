@@ -1,6 +1,4 @@
 
-
-
 .page {
     /*height: 1217px;*/
     height: 100vh;
@@ -36,7 +34,6 @@
     margin: 40px auto auto;
     display: flex;
     color: #FFFFFF;
-    
 }
 
 .profile__column {
@@ -79,6 +76,7 @@
     margin-left: 18px;
     border: 1px solid #FFFFFF;
     display: flex;
+    cursor: pointer;
 }
 
 .profile__explorer {
