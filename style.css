@@ -103,8 +103,6 @@
     position: relative;
 }
 
-
-
 .CloseIcon {
     width: 40px;
     height: 40px;
@@ -112,9 +110,7 @@
     margin-left: 430px;
     background-color: #000000;
     border: #000000;
-  
- 
- }
+}
 
 .popup__form {
     width: 430px;
