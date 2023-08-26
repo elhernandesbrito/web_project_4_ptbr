@@ -2,16 +2,15 @@ const buttonEdit = document.querySelector('.profile__edit');
 
 const popup = document.querySelector('.popup');
 const buttonClose = popup.querySelector('.CloseIcon');
+const popupForm = popup.querySelector('.popup__form');
 
-buttonEdit.onclick = function() {
-   popup.show()
-}
+buttonEdit.addEventListener('click', () =>{
+   popup.style.display = 'block'
+})
 
-buttonClose.onclick = function() {
-   popup.close()
-}
-
-
+buttonClose.addEventListener('click', () => {
+   popup.style.display='none'
+})
 
 
 
