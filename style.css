@@ -98,11 +98,16 @@
 }
 
 .popup {
+  display: none;
+}
+
+.popup_change_display {
+    display: flex;
     width: 470px;
     height: 370px;
     position: relative;
-    display: none;
 }
+
 
 .CloseIcon {
     width: 40px;

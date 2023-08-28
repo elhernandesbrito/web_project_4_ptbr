@@ -3,14 +3,36 @@ const buttonEdit = document.querySelector('.profile__edit');
 const popup = document.querySelector('.popup');
 const buttonClose = popup.querySelector('.CloseIcon');
 const popupForm = popup.querySelector('.popup__form');
+const buttonSave = popup.querySelector('.submit-save');
 
-buttonEdit.addEventListener('click', () =>{
+
+
+buttonEdit.addEventListener('click', toggleFormDisplay)
+buttonClose.addEventListener('click', changeDisplayToNone)
+
+function toggleFormDisplay() {
+   popup.classList.toggle('popup_change_display')
+}
+
+function changeDisplayToNone() {
+   popup.classList.remove('popup_change_display')
+}
+
+
+
+
+/*buttonEdit.addEventListener('click', () =>{
    popup.style.display = 'block'
+})
+
+popup.addEventListener('click', event => {
+   const classNameOfClickedElement = event.target.classList
+   console.log(classNameOfClickedElement)
 })
 
 buttonClose.addEventListener('click', () => {
    popup.style.display='none'
-})
+}) */
 
 
 
