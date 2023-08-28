@@ -2,13 +2,19 @@ const buttonEdit = document.querySelector('.profile__edit');
 
 const popup = document.querySelector('.popup');
 const buttonClose = popup.querySelector('.CloseIcon');
-const popupForm = popup.querySelector('.popup__form');
 const buttonSave = popup.querySelector('.submit-save');
 
+const popupForm = popup.querySelector('.popup__form');
+const inputName = popupForm.querySelector('popup__form-name');
+const inputExplorar = popupForm.querySelector('popup__form-Explorar');
+const profileInfo = document.querySelector('.profile__info');
+const profileName = document.querySelector('.profile__name');
+const profileExplorer = document.querySelector('.profile__explorer');
 
 
 buttonEdit.addEventListener('click', toggleFormDisplay)
 buttonClose.addEventListener('click', changeDisplayToNone)
+buttonSave.addEventListener('click', handleProfileFormSubmit)
 
 function toggleFormDisplay() {
    popup.classList.toggle('popup_change_display')
@@ -18,6 +24,13 @@ function changeDisplayToNone() {
    popup.classList.remove('popup_change_display')
 }
 
+function handleProfileFormSubmit(event) {
+   event.preventDefault();
+   profileName.textContent = inputName.value;
+   profileExplorer.textContent = inputExplorar.value;
+   inputName.value = '';
+   inputExplorar.value = '';
+}
 
 
 

@@ -146,7 +146,7 @@ input {
     margin-top: 0;
 }
 
-.input__text_nome-Perfil {
+.popup__form-name {
     margin-top: 54px;
     width: 358px;
     height: 27px;
@@ -155,10 +155,9 @@ input {
     font-weight: 400;
     border: 0;
     border-bottom:1px solid #000000; ;
-    
 }
 
-.input__text_nome-Explorar {
+.popup__form-Explorar {
     margin-top: 30px;
     width: 358px;
     font-size: 14px;
