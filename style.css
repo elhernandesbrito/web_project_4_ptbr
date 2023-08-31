@@ -7,6 +7,7 @@
     padding: 0 220px;
     background-color: black;
     font-family: 'Inter', Arial, sans-serif;
+    
 }
 
 .header {
@@ -79,6 +80,7 @@
     cursor: pointer;
 }
 
+
 .profile__explorer {
     width: 415px;
     height: 22px;
@@ -105,11 +107,15 @@
     display: flex;
     width: 470px;
     height: 370px;
-    position: relative;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+
+ 
 }
 
-
-.CloseIcon {
+.CloseButton {
     width: 40px;
     height: 40px;
     position: absolute;
@@ -169,7 +175,6 @@ input {
 }
 
 .submit-save {
-    
     margin-top: 48px;
     margin-left: 36px;
     width: 358px;
@@ -182,6 +187,7 @@ input {
     text-align: center;
     color: #FFFFFF;
     background-color: #000000;
+    cursor: pointer;
 }
 
 
