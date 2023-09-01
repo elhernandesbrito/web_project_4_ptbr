@@ -7,7 +7,7 @@
     padding: 0 220px;
     background-color: black;
     font-family: 'Inter', Arial, sans-serif;
-    
+    z-index: -1;
 }
 
 .header {
@@ -49,6 +49,7 @@
 .profile__avatar {
     width: 120px;
     height: 120px;
+    border-radius: 50%;
 }
 
 .profile__info {
@@ -98,7 +99,6 @@
     border: 2px;
     border: 2px solid #FFFFFF
 }
-
 .popup {
   display: none;
 }
@@ -111,8 +111,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90%;
-
- 
+    z-index: 999;
 }
 
 .CloseButton {
@@ -133,6 +132,7 @@
     border-radius: 10px;
     box-shadow: 0px 0px 25px 0px #00000026;
     background-color:#FFFFFF;
+    
     
 }
 

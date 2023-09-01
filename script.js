@@ -8,20 +8,18 @@ const inputName = popupForm.querySelector('.popup__form-name');
 const inputExplorar = popupForm.querySelector('.popup__form-Explorar');
 const profileName = document.querySelector('.profile__name');
 const profileExplorer = document.querySelector('.profile__explorer');
-const page = document.querySelector('.page');
 
 
 editarPerfil.addEventListener('click', toggleFormDisplay)
+
 closeButton.addEventListener('click', changeDisplayToNone )
 submitSave.addEventListener('click', handleProfileFormSubmit)
-page.addEventListener(escureceTela)
 
 function toggleFormDisplay() {
    popup.classList.toggle('popup_change_display')
-   function escureceTela() {
-      page.style.opacity=0.2;
-   }
 }
+
+
 
 function changeDisplayToNone() {
    popup.classList.remove('popup_change_display')
