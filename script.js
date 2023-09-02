@@ -19,8 +19,6 @@ function toggleFormDisplay() {
    popup.classList.toggle('popup_change_display')
 }
 
-
-
 function changeDisplayToNone() {
    popup.classList.remove('popup_change_display')
 }

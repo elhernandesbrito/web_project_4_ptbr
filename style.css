@@ -111,7 +111,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90%;
-    z-index: 999;
 }
 
 .CloseButton {
@@ -132,8 +131,8 @@
     border-radius: 10px;
     box-shadow: 0px 0px 25px 0px #00000026;
     background-color:#FFFFFF;
-    
-    
+    position: fixed;
+   
 }
 
 .EditarPerfil {
@@ -197,9 +196,6 @@ input {
     position: relative;
 }
 
-
-
-/*
 .elements {
     width: 880px;
     height: 743px;
@@ -209,10 +205,12 @@ input {
     grid-template-rows: repeat(2,1fr);
     column-gap: 17px;
     row-gap: 21px;
+    position: absolute;
 }
 .elements__element {
     width: 282px;
     height: 361px;
+    position: relative;
 }
 
 footer {
@@ -232,4 +230,3 @@ footer {
 
 
 }
-*/
