@@ -8,6 +8,12 @@ const inputName = popupForm.querySelector('.popup__form-name');
 const inputExplorar = popupForm.querySelector('.popup__form-Explorar');
 const profileName = document.querySelector('.profile__name');
 const profileExplorer = document.querySelector('.profile__explorer');
+const header = document.querySelector('.header');
+const elements = document.querySelector('.elements');
+const copyright = document.querySelector('.copyright');
+const cards = document.querySelector('.cards');
+let card = cards.querySelector('.cards__card');
+
 
 
 editarPerfil.addEventListener('click', toggleFormDisplay)
@@ -17,7 +23,10 @@ submitSave.addEventListener('click', handleProfileFormSubmit)
 
 function toggleFormDisplay() {
    popup.classList.toggle('popup_change_display')
+   
+
 }
+
 
 function changeDisplayToNone() {
    popup.classList.remove('popup_change_display')
@@ -35,6 +44,23 @@ function handleProfileFormSubmit(event) {
 
 
 
+/*
+editarPerfil.addEventListener('click', escurecer)
+function escurecer() {
+   header.style.opacity = 0.4;
+   profile.style.opacity = 0.4;
+   cards.style.opacity = 0.4;
+   copyright.style.opacity = 0.4;
+}*/
+
+/*closeButton.addEventListener('click', regular)
+submitSave.addEventListener('click', regular)
+function regular() {
+   header.style.opacity = 'unset';
+   profile.style.opacity = 'unset';
+   cards.style.opacity = 'unset';
+   copyright.style.opacity ='unset';
+}*/
 
 
 
@@ -45,53 +71,3 @@ function handleProfileFormSubmit(event) {
 
 
 
-
-
-
-
-/*buttonEdit.addEventListener('click', () =>{
-   popup.style.display = 'block'
-})
-
-popup.addEventListener('click', event => {
-   const classNameOfClickedElement = event.target.classList
-   console.log(classNameOfClickedElement)
-})
-
-buttonClose.addEventListener('click', () => {
-   popup.style.display='none'
-}) */
-
-
-
-// Vamos encontrar o formulário no DOM
-// let formElement = // Use o método querySelector()
-
-// Em seguida vem o handler do submit
-// ainda não vai enviar para lugar nenhum
-
-// Observe que o nome da função começa com um verbo
-// e descreve exatamente o que a função faz
-
-//function handleProfileFormSubmit(evt) {
-    // Esta linha impede o navegador 
-    // de enviar o formulário da forma padrão.
- //   evt.preventDefault();
-    // Fazendo isso, podemos definir nossa própria forma de enviar o formulário.
-    // Explicaremos em mais detalhes posteriormente.
-
-    // Vamos encontrar os campos de formulário do DOM
-  //  let nameInput = // Use querySelector()
- //   let jobInput = // Use querySelector()
-
-    // Pegue os valores de cada campo do valor da propriedade correspondente
-
-    // Selecione os elementos aos quais os valores dos campos serão inseridos
-
-    // Insira novos valores usando a
-    // propriedade textContent
-//}
-
-// Conecte o handler ao formulário:
-// ele vai observar o evento de submit
-//formElement.addEventListener('submit', handleProfileFormSubmit); 
