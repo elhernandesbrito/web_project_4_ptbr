@@ -1,0 +1,19 @@
+.header {
+    width: 880px;
+    height: 74px;
+    margin: 45px auto auto;
+    position: relative;
+}
+
+.header__vector {
+    margin-top: 0;
+    width: 173px;
+    height: 33px;
+}
+
+.header__line {
+    width: 880px;
+    border: 1px solid #545454;
+    opacity: 70%;
+    margin-top: 40px;
+}

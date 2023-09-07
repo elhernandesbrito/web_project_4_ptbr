@@ -1,0 +1,14 @@
+* {
+    font-family: 'Inter', Arial, sans-serif;
+    color:#FFFFFF;
+}
+
+.page {
+    height: 1217px;
+   /* height: 100%;*/
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 220px;
+    background-color: black;
+    
+}

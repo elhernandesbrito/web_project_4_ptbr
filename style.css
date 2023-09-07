@@ -10,6 +10,7 @@
     margin: 0 auto;
     padding: 0 220px;
     background-color: black;
+    
 }
 
 .header {
@@ -82,9 +83,7 @@
     display: flex;
     cursor: pointer;
 }
-.profile__edit:hover {
-    ;
-}
+
 
 .profile__explorer {
     width: 415px;
@@ -115,24 +114,15 @@
 
 .popup_change_display {
     display: flex;
-   /* width: auto;
+    margin: auto;
     position: fixed;
-    margin: auto;*/
-  
-   
-    /* width: 470px;
-    height: 370px;*/
-   /* left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 90%;*/
 }
 
-.CloseButton {
+.popup__closeButton {
     width: 40px;
     height: 40px;
     position: absolute;
     margin-left: 430px;
-    background-color: #000000;
     border: #000000;
     cursor: pointer;
 }
@@ -141,20 +131,19 @@
     width: 430px;
     height: 330px;
     margin-top: 40px;
+    margin-left: 20%;
     border: 1px solid #000000;
     border-radius: 10px;
     box-shadow: 0px 0px 25px 0px #00000026;
     background-color:#FFFFFF;
     position: fixed;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   /* left: 50%;*/
+   /* transform: translate(-50%, -50%);*/
     max-width: 90%;
-    color: #000000;
-  
-  
+       color: #000000;
 }
 
-.EditarPerfil {
+.popup__EditarPerfil {
     margin-top: 34px;
     width: 330px;
     height: 23px;
@@ -165,10 +154,11 @@
     margin-left: 36px;
     color: #000000;
 }
-
+/*
 input {
     margin-top: 0;
 }
+*/
 
 .popup__form-name {
     margin-top: 54px;
@@ -194,7 +184,7 @@ input {
     color: #000000;
 }
 
-.submit-save {
+.popup__submit-save {
     margin-top: 48px;
     margin-left: 36px;
     width: 358px;
@@ -211,12 +201,6 @@ input {
 }
 
 
-.popup_change_display {
-    width: 470px;
-    height: 370px;
-    position: relative;
-}
-
 .cards {
     width: 880px;
     height: 743px;
@@ -227,8 +211,8 @@ input {
     column-gap: 17px;
     row-gap: 21px;
     position: absolute;
-    
 }
+
 .cards__card {
     width: 282px;
     height: 361px;

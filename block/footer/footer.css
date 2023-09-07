@@ -1,0 +1,14 @@
+footer {
+    margin: 860px auto auto;
+    width: 880px;
+}
+
+.copyright {
+    margin-top: 0;
+    width: 318px;
+    height: 18px;
+    line-height: 21.78px;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #545454;
+}
