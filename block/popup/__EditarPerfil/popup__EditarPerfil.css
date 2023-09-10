@@ -9,3 +9,19 @@
     margin-left: 36px;
     color: #000000;
 }
+
+@media screen and (max-width:320px) and  (max-height:2814px) {
+
+    .popup__EditarPerfil {
+        margin-top: 25px;
+        width: 238px;
+        height: 22px;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 21.78px;
+        letter-spacing: 0em;
+        margin-left: 22px;
+        color: #000000;
+    }
+
+}

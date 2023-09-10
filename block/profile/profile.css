@@ -5,3 +5,17 @@
     display: flex;
     color: #FFFFFF;
 }
+
+@media screen and (max-width:320px) and  (max-height:2814px) {
+    .profile {
+        width: 282px;
+        height: 286px;
+        margin-left: 19px;
+        display: flex;
+        margin-top: 42px;
+        color: #FFFFFF;
+        border: 1px solid green;
+      
+    }
+}
+
