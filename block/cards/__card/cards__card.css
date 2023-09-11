@@ -8,9 +8,7 @@
     .cards__card {
         width: 282px;
         height: 361px;
-        margin-left: 0px;
         position: relative;
-        border: 1px solid red;
     }
     
 }

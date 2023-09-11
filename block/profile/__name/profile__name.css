@@ -19,8 +19,8 @@
         font-size: 22px;
         line-height: 26.63px;
         display: flex;
-        border: 1px solid red;
-      
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
     
 }
