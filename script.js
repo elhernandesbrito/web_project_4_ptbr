@@ -14,18 +14,13 @@ const copyright = document.querySelector('.copyright');
 const cards = document.querySelector('.cards');
 let card = cards.querySelector('.cards__card');
 
-
-
 editarPerfil.addEventListener('click', toggleFormDisplay)
-
 closeButton.addEventListener('click', changeDisplayToNone )
 submitSave.addEventListener('click', handleProfileFormSubmit)
 
 function toggleFormDisplay() {
    popup.classList.toggle('popup_change_display')
-   
 }
-
 
 function changeDisplayToNone() {
    popup.classList.remove('popup_change_display')
